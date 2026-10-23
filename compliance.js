@@ -1,0 +1,120 @@
+// 由 research-compliance.json 转换生成 · as_of 2026-10
+COMPLIANCE = [
+ {
+  "flag": "🇮🇩",
+  "market": "印度尼西亚",
+  "label_language": "强制使用印尼语标签（Bahasa Indonesia）。加工食品标签须符合 BPOM 条例 31/2018（经 20/2021 修订）：须标注 BPOM ML 注册号、产品名、净含量、生产商/进口商名称地址、配料、有效期、营养信息（BPOM Reg 10/2026）；标签须在进口前获 BPOM 核准。",
+  "certification": "清真：强制。依《清真产品保障法》33/2014，进口食品饮料须清真认证并在 BPJPH SIHALAL 系统注册；期限经 PP 42/2024 延至 2026-10-17，2026-10-19 政府再度延长（含进口食品饮料）至 2028-10-18。有机：中国与印尼无有机互认协议（未查到印尼官方互认清单）。其他：加工食品须 BPOM 注册；部分食品需 SNI 印尼国标（咖啡类是否强制 SNI 未核实）。",
+  "tariff": "咖啡 0901（生豆/烘焙）MFN 最惠国进口关税 5%（Tridge 引 PMK 26/PMK.010/2022、PMK 41/PMK.010/2022 口径）；VAT（PPN）11%；PPh 22 所得税 2.5%（有 API 进口许可）或 7.5%（无 API）。对中国：RCEP 协定税率 2023 年 3.5%、2024 年 3%（Tridge 口径，逐年递减）；中国-东盟自贸区 ACFTA 凭 FORM E 原产地证可享更低/0%（多个商业来源，未核到印尼官方承诺表原文，须以 BTKI/INSW 核定）。",
+  "access": "进口商须在 OSS 系统取得 NIB（含 API-U 一般进口/API-P 生产进口分类）；加工食品须 BPOM 注册（ML 号，按进口商注册，5 年有效）并申请 SKI 食品进口许可（e-BPOM 系统，与 INSW 联通）；受 LARTAS 管制清单检查；BPJPH 清真（2028-10-18 前过渡）；外国主体须指定本地进口商/代理。监管机构：BPOM（食品）、BPJPH（清真）、海关总局 DJBC/Bea Cukai。",
+  "customs": "一般流程：承运人舱单 → INSW 查询 LARTAS 与所需许可 → 到货 24 小时内经 CEISA 提交 PIB 进口申报（附商业发票、箱单、B/L、原产地证 FORM E/RCEP、BPOM SKI、清真证、保险单）→ 银行预付关税/VAT/PPh22 → 系统分绿/黄/红通道（红通道开箱查验）→ 海关签发 SPPB 放行。要点：食品类在 PIB 前须取得 BPOM 数字放行（SKI）；印尼实行税款预付制。",
+  "source": [
+   "https://tridge.com/market-guides/ID-coffee-bean",
+   "https://www.trade.gov/market-intelligence/indonesia-food-and-beverage-halal-certification-extended",
+   "https://thejakartapost.com/business/2026/10/19/government-extends-some-halal-certification-deadlines-to-2028/",
+   "https://food-lawyers.net/fl_country_ex/indonesia",
+   "https://food.chemlinked.com/foodpedia/indonesia-processed-food-labeling-regulation",
+   "https://emerhub.com/indonesia/indonesia-customs-declaration-as-a-foreign-business/",
+   "https://customspedia.com/indonesia-import-customs-clearance-guide",
+   "https://export.business.gov.au/laws-and-regulations/export-rules-finder/product-requirements/0401/idn/product-documents/p_i_fd",
+   "https://trade.gov/country-commercial-guides/indonesia-import-requirements-and-documentation"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。RCEP 逐年税率与 ACFTA 0% 未核到印尼官方承诺表原文；SNI 是否覆盖咖啡未核实。"
+ },
+ {
+  "flag": "🇲🇾",
+  "market": "马来西亚",
+  "label_language": "进口食品标签可用马来语（Bahasa Malaysia）或英语（Food Regulations 1985 第 10 条）；强制标注：食品通用名称、配料、净重、生产商/进口商/包装商名称地址、原产国等。",
+  "certification": "清真：JAKIM 负责；非动物源食品（如纯咖啡）原则上自愿，但若宣称清真/使用清真标识，须由 JAKIM 认可的外国清真认证机构认证；含动物源成分（如含乳植脂末）则须满足清真要求。有机：中马有机互认未查到，无互认协议。",
+  "tariff": "咖啡 0901 各子目（0901.11/0901.12 生豆、0901.21/0901.22 烘焙、0901.90.10 壳皮）一般进口关税为 Free/0%（VatCheck 马来西亚第9章关税表，商业数据库口径，以 JKDM PDK 2022 为准）；咖啡代用品 0901.90.20 为 1.5 美分/kg。另征销售与服务税 SST（进口食品适用销售税，具体税率未核）。因 MFN 已 0%，中国原产无需依赖 ACFTA 优惠。",
+  "access": "进口商须在卫生部食品安全与质量司（FSQD）FoSIM 系统注册（company + importer 账号，与海关 K1 数据一致）；一般包装食品到港风险抽检；生咖啡豆受植物检疫管制：MAQIS 官方 FAQ 称生咖啡豆须向 FAMA 申请进口许可（配额制），MAQIS 进口程序表将“All coffee species”列为 Plant Quarantine Act 1976 管制物，需进口许可+植物检疫证书（SALB 风险国可能加中间检疫/PEQ）；烘焙咖啡按一般加工食品走 FoSIM。监管：MOH/FSQD、MAQIS、DOA、FAMA、JAKIM。",
+  "customs": "一般流程：FoSIM 注册 → 取得进口许可（生豆：FAMA/DOA 许可+MAQIS 植物检疫许可；烘焙：一般 FoSIM）→ K1 报关单（Dagang Net 电子报关）→ FoSIM/K1 联检（海关状态 OGA Pending，MOH/MAQIS 风险抽检、高险取样化验）→ 放行。单证：商业发票、箱单、B/L、原产地证（如需优惠）、植物检疫证书（生豆）、合规标签（马来语/英语）、清真证（如宣称）。",
+  "source": [
+   "https://vatcheck.io/tariffs/malaysia/9",
+   "http://maqis.gov.my/en/soalan-lazim",
+   "http://maqis.gov.my/en/tumbuhan-prosedur-import",
+   "https://mtpak.coffee/jp/2022/05/malaysian-coffee-roasters-struggle-import-green-beans",
+   "https://dnelogistics.com.my/importing-food-into-malaysia-maqis-permits",
+   "https://www.azmilaw.com/insights/importing-manufactured-food-products-in-malaysia-legal-requirements/",
+   "https://food.chemlinked.com/foodpedia/labeling-requirement-in-malaysia",
+   "https://food.chemlinked.com/foodpedia/malaysian-halal-food-regulation"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。0901 税率来自商业数据库 VatCheck，未核到 JKDM PDK 2022 原文；生豆 FAMA 配额制与 DOA/MAQIS 许可细节须以官方最新为准。"
+ },
+ {
+  "flag": "🇯🇵",
+  "market": "日本",
+  "label_language": "强制使用日语标签。食品标签依《食品标示法》与《食品标示基准》（消费者厅 CAA）：须标名称、原产国、进口商名称地址、保存方法、过敏原、净含量、营养成分（加工食品）等。",
+  "certification": "清真：日本无强制清真要求；清真认证仅属商业选择。有机：中国与日本无有机互认（日本互认国仅 EU/英国/加拿大/澳大利亚/美国/瑞士/新西兰/台湾/阿根廷）；中国产品标“有機/Organic”须取得有机 JAS 认证（经 MAFF 登录的认证机构，含海外 RCB——中国认证机构 FOFCC 已获 JAS 资格）。",
+  "tariff": "日本关税表（税关 2022-04-01 版）：生豆 0901.11/0901.12 = 无税（Free，全税率栏）；烘焙 0901.21/0901.22 = 基本税率 20%、WTO 协定税率 12%、特惠 10%。中国产烘焙咖啡适用 WTO 协定税率 12%（RCEP 属中日共同协定，但烘焙咖啡的 RCEP 日本承诺税率未查到官方表）；生豆 0%。另征消费税（进口时按 CIF+关税计征，标准税率 10%）。",
+  "access": "食品卫生法第 27 条：每批进口须向厚生劳动省（MHLW）检疫所提交《食品等输入届出书》（电子或纸质），在通关前取得届出済证；检疫所文件审查+抽检（农残/霉菌毒素超标将强化检查或命令检查）；咖啡生豆另受植物防疫法（MAFF 植物检疫）管制。一般食品无事前注册制度。",
+  "customs": "一般流程：NACCS 电子申报 + MHLW 检疫所输入届出 → 检疫所文件审查/抽检并发《届出済证》→ 海关（税关）申报（附发票、箱单、B/L、原产地证等）→ 关税/消费税缴纳 → 放行。要点：先检疫后通关（通关须凭届出済证）；生豆附植物检疫证书。",
+  "source": [
+   "https://customs.go.jp/english/tariff/2022_04_01/data/e_09.htm",
+   "https://www.rakuraku-boeki.jp/column/moto_tsuukanshi/2020-06-29",
+   "https://specialtycoffee.id/articles/importing-green-coffee-to-japan-from-indonesia",
+   "https://mhlw.go.jp/english/topics/importedfoods/1.html",
+   "https://organicexport.info/japan",
+   "http://fofcc.org.cn/en/28524"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。中国产烘焙咖啡在 RCEP 下是否低于 12% 未查到官方承诺表，须查税关 RCEP 税率。"
+ },
+ {
+  "flag": "🇺🇸",
+  "market": "美国（代表北美）",
+  "label_language": "强制使用英语标签（21 CFR 101.15(c)）；标签含任何外语宣称时，法定信息须以该外语重复；须标净含量、配料、生产商/进口商、营养标签（NFP）、过敏原等。",
+  "certification": "清真：美国无联邦强制清真；清真认证属商业自愿（如 IFANCA）。有机：USDA NOP；中国不在 USDA 有机互认名单，中国有机认证不能直接换 USDA Organic——须由 USDA 认可认证机构（ACA）直接按 NOP 认证（Ecocert/BCS 等在华机构），并随货出 NOP Import Certificate。",
+  "tariff": "HTSUS 第1栏一般税率：0901.11/0901.12 生豆、0901.21/0901.22 烘焙 = Free；0901.90.10 壳皮 Free；0901.90.20 代用品 1.5¢/kg。中国原产：据商业估算平台 htshero（2026-10-07）烘焙咖啡 0901.21 被加征 Section 301 附加税 7.5%（附加税号 9903.88.15）；生豆 0901.11 是否同被加征未在该来源确认，须以 CBP/USITC 第99章当日公告核定。",
+  "access": "FDA 管辖。境外咖啡生产/加工/包装/仓储设施须完成 FDA Food Facility Registration（每两年偶数年 10-12 月续期，2026 为续期年）并指定美国代理人；美国进口商须建立 FSVP 外国供应商验证计划（关注水分、霉菌、赭曲霉毒素 A）；每批货物须在到港前提交 FDA Prior Notice（海运到港前 ≥8 小时，PNSI/ACE 系统）；海运另需 CBP ISF 10+2（装船前 24 小时）。",
+  "customs": "一般流程：CBP 电子报关（Entry/ACE）→ FDA Prior Notice 与报关匹配 → FDA 电子筛查放行或抽样/扣验 → 关税缴纳（常规 MFN Free；中国原产另加 Section 301 7.5% 如适用）→ 放行。单证：商业发票、箱单、B/L、原产地证（非优惠亦建议）、FDA 注册号、FSVP 记录备查。",
+  "source": [
+   "https://hts.usitc.gov/",
+   "https://hts-classify.com/hts/heading/0901",
+   "https://htshero.com/hts/0901.21.00",
+   "https://law.cornell.edu/cfr/text/21/101.15",
+   "https://orionexregulatory.com/fda-coffee-import-guide-2026",
+   "https://fdaregistrationassistance.com/fda-registration-for-coffee-products",
+   "https://arabica-coffee-ethiopia.com/blog/fda-prior-notice-coffee-imports",
+   "https://ams.usda.gov/services/organic-certification/international-trade/how-does-usda-assess-organic-equivalency-other-countries"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。Section 301/IEEPA 附加关税变化频繁，发货前须用当日 HTS 第99章核实中国原产商品的附加税率。"
+ },
+ {
+  "flag": "🇪🇺",
+  "market": "欧盟",
+  "label_language": "Reg (EU) 1169/2011 第15条：强制食品信息须以销售地成员国消费者易懂的语言标示；成员国可在其境内要求以一种或多种官方语言标示（如德国德语、法国法语），多语种并列允许。须标：食品名称、配料、净含量、保质期/最佳食用期、储存条件、欧盟进口商名称地址、原产国、营养声明等。",
+  "certification": "清真：欧盟无强制清真；清真认证商业自愿。有机：中国与欧盟无有机互认协议——中国不在欧盟等效第三国名单（协定：智利/瑞士/英国；等效：阿根廷、澳大利亚、加拿大、哥斯达黎加、印度、以色列、日本、突尼斯、韩国、新西兰、美国；实施条例 2021/2325，等效认定至 2026-12-31 过渡）；中国产品可经欧盟认可的控制机构（如 IBD，依 Reg 2024/2140）按 EU 2018/848 认证后以有机名义出口，须附检验证书（COI，TRACES 提交）。",
+  "tariff": "欧盟 TARIC 对第三国（erga omnes，含中国）：0901.11 生豆未烘焙未脱因 = 0%；0901.12 脱因生豆 = 8.3%；0901.21 烘焙未脱因 = 7.5%；0901.22 烘焙脱因 = 9%；0901.90.10 壳皮 = 0%；0901.90.90 咖啡代用品 = 11.5%。另征进口增值税（成员国税率不同）。",
+  "access": "一般食品无进口商事前注册（有机除外）；须符合通用食品法（Reg 178/2002）、食品卫生法规、农残/污染物限量（EC 396/2005、EU 2023/915 赭曲霉毒素 A 等）；标签合规；有机产品须 TRACES 预通报与 COI；生咖啡豆植物检疫要求因成员国而异（未查到欧盟统一强制植物检疫证书的官方确认）。",
+  "customs": "一般流程：进口商 EORI 登记 → 海关申报（SAD，电子系统，如德国 ATLAS）→ 关税与进口增值税缴纳 → 按风险查验 → 放行。单证：商业发票、箱单、B/L、原产地证（中国产生豆 MFN 0%/烘焙 7.5%，一般无需优惠原产地证）、有机 COI（如宣称有机）。",
+  "source": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32011R1169",
+   "https://ec.europa.eu/food/safety/labelling-and-nutrition/food-information-consumers-legislation/language-and-presentation-food-information_en",
+   "https://ec.europa.eu/agriculture/organic/eu-policy/eu-rules-on-trade/import-export_en",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX:32021R2325",
+   "http://fofcc.org.cn/en/25673/",
+   "https://tarific.eu/en/import/green-coffee-beans",
+   "https://thetradehub.eu/en/customs/classification-guide/0901"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。欧盟有机等效第三国名单正从旧法 834/2007 向 2018/848 过渡（2026-12-31 截止），中国产品走控制机构认证通道；生豆植物检疫未获官方统一确认。"
+ },
+ {
+  "flag": "🇦🇪",
+  "market": "阿联酋（代表中东）",
+  "label_language": "强制使用阿拉伯语标签；常见做法为阿拉伯语+英语双语。依阿联酋食品标签法规（GCC 食品标签标准、UAE Cabinet Decision 14/2022 等）：须标食品名称、配料、净含量、原产国、生产商/进口商、保质期、储存条件、营养信息；RTD 咖啡需标每 100ml 咖啡因含量。",
+  "certification": "清真：肉类/禽类及其制品进口强制清真（ESMA 认可机构）；纯植物源产品（咖啡豆/烘焙咖啡）非强制，但若做清真宣称/贴清真标识，必须由 ESMA 认可认证机构按 UAE.S 2055 认证并展示标识；商业上主流零售商普遍要求清真证书。有机：中国-阿联酋有机互认未查到。",
+  "tariff": "GCC 共同对外关税（CET）一般税率 5%（CIF 价计）。咖啡 0901 子目口径存在冲突：bogna.ae/Willkin 等称生咖啡豆 0%（GCC 食品豁免）、烘焙咖啡 5%；taxadvisors.ae 称咖啡不属免税主食、按 5%（但自述未逐子目核实）。本次未查到阿联酋联邦海关 8 位税则 0901 子目官方页，须以 Dubai Customs 税则核定。另征 VAT 5%（咖啡标准税率）。",
+  "access": "进口食品须经当地食品监管机构注册/放行：迪拜 Dubai Municipality FIRS（Food Import & Re-export System），阿布扎比 ADAFSA；植物产品（含生咖啡豆）须 MOCCAE 植物检疫证书，>100kg 生豆须 MOCCAE 进口许可；须用 8 位 HS 编码（GCC 版），标错编码最低罚款 AED 5,000；咖啡烘焙/包装活动需相应营业执照。",
+  "customs": "一般流程：进口商持海关 Importer Code → Dubai Customs 电子申报（8 位 HS）→ 食品监管（FIRS/ADAFSA）与植物检疫（MOCCAE）放行 → 关税（5% 或 0%，视 0901 子目）+ VAT 5% → 放行。单证：商业发票、箱单、B/L、原产地证、植物检疫证书（生豆）、阿拉伯语标签、清真证（如宣称）。",
+  "source": [
+   "https://bogna.ae/tpost/illmzap1x1-vietnam-uae-cepa-complete-tariff-guide-f",
+   "https://taxadvisors.ae/guides/tea-coffee-trading-tax-uae",
+   "https://uaefreezonefinder.com/uae-import-customs-duties-guide-2026",
+   "https://uaefreezonefinder.com/uae-cafe-coffee-shop-guide-2026",
+   "https://halalexpo.com/blog/esma-halal-certification-uae-requirements-exporters",
+   "https://unclefluffy.com/blogs/articles/how-to-start-a-coffee-business-in-dubai-licensing-requirements-costs-2025-update",
+   "https://glassandnote.com/culture/pricing-product-analysis-iced-rtd-coffee-drinks-the-uae"
+  ],
+  "note": "2026-10 核实；政策会变，以官方最新为准。0901 各子目关税（0% 或 5%）来源冲突、未核到官方税则页，须以阿联酋联邦海关 8 位税则为准。"
+ }
+];

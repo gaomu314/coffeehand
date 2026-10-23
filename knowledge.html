@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咖手 · 咖啡知识库</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  body { background:#faf6f0; color:#3f2e22; margin:0; font-family:"Microsoft YaHei","PingFang SC",sans-serif; }
+  .kw-wrap { max-width:860px; margin:0 auto; padding:0 20px 80px; }
+  .kw-header { text-align:center; padding:46px 10px 10px; }
+  .kw-header h1 { font-size:34px; letter-spacing:3px; margin:0; }
+  .kw-header .sub { color:#8a6a4f; margin-top:8px; font-size:15px; }
+  .home-link { position:absolute; top:18px; left:20px; color:#7a4f2a; text-decoration:none; font-size:14px; }
+  .kw-nav { position:sticky; top:0; z-index:9; background:#faf6f0; border-bottom:1px solid #e3dcc9; display:flex; gap:6px; padding:10px 0; flex-wrap:wrap; }
+  .kw-nav a { font-size:13px; text-decoration:none; color:#6b543f; border:1px solid #d8c6ae; border-radius:999px; padding:6px 16px; background:#fff; }
+  .kw-nav a:hover { background:#6f4e37; color:#fff; }
+  .chapter { margin-top:34px; }
+  .chapter h2 { font-size:24px; color:#6f4e37; border-left:5px solid #c9a227; padding-left:12px; }
+  .chapter .intro { color:#8a6a4f; font-size:14px; margin:8px 0 18px; }
+  .ksec { background:#fff; border-radius:14px; padding:18px 20px; margin-bottom:14px; box-shadow:0 2px 10px rgba(63,46,34,.05); }
+  .ksec h3 { color:#3f2e22; font-size:16.5px; margin-bottom:8px; }
+  .ksec p { font-size:14.5px; line-height:2; color:#4a3728; }
+  .ksec .srcs { margin-top:8px; font-size:12px; }
+  .ksec .srcs a { color:#a9743f; text-decoration:none; margin-right:10px; }
+  .papers { background:#f3e5d0; border-radius:12px; padding:14px 16px; font-size:13px; color:#7a4f2a; line-height:1.9; margin-top:6px; }
+  .papers b { color:#6f4e37; }
+  .papers ul { margin:6px 0 0 18px; }
+  .kw-note { margin-top:30px; font-size:12px; color:#9b8a78; }
+  .placeholder { color:#9b8a78; font-size:14px; }
+</style>
+</head>
+<body>
+<a class="home-link" href="index.html">← 返回首页</a>
+<div class="kw-wrap">
+  <div class="kw-header">
+    <h1>📚 咖啡知识库</h1>
+    <div class="sub">四章深读：风味化学 · 咖啡因与健康 · 全球咖啡史与贸易 · 中国咖啡产业</div>
+  </div>
+  <div class="kw-nav" id="kwNav"></div>
+  <div id="kwBody"><p class="placeholder">知识库整理中（调研完成后自动点亮）。</p></div>
+</div>
+<script src="knowledge.js" onerror="window.KNOWLEDGE=null"></script>
+<script>
+(function () {
+  var data = window.KNOWLEDGE;
+  if (!data || !data.chapters || !data.chapters.length) {
+    document.getElementById("kwBody").innerHTML = '<p class="placeholder">知识库整理中（调研完成后自动点亮）。</p>';
+    return;
+  }
+  document.getElementById("kwNav").innerHTML = data.chapters.map(function (c) {
+    return '<a href="#ch-' + c.id + '">' + c.title + '</a>';
+  }).join("");
+  document.getElementById("kwBody").innerHTML = data.chapters.map(function (c) {
+    var secs = (c.sections || []).map(function (s) {
+      var srcs = (s.sources || []).map(function (u) {
+        return '<a href="' + u.url + '" target="_blank">' + u.label + ' ↗</a>';
+      }).join(" ");
+      return '<div class="ksec"><h3>' + s.heading + '</h3><p>' + s.text + '</p>' +
+        (srcs ? '<div class="srcs">' + srcs + '</div>' : "") + '</div>';
+    }).join("");
+    var papers = (c.papers || []).map(function (p) {
+      return '<li>' + (p.title || "（标题待补）") + (p.year ? "，" + p.year : "") +
+        (p.venue ? "，" + p.venue : "") + (p.doi ? "，DOI: " + p.doi : "") +
+        ' <b>[' + (p.verified ? "已核实" : "未核实") + ']</b></li>';
+    }).join("");
+    return '<section class="chapter" id="ch-' + c.id + '"><h2>' + c.title + '</h2>' +
+      (c.intro ? '<p class="intro">' + c.intro + '</p>' : "") +
+      secs +
+      (papers ? '<div class="papers"><b>延伸阅读（论文/报告）</b><ul>' + papers + '</ul></div>' : "") +
+      '</section>';
+  }).join("") +
+    (data.disclaimer ? '<p class="kw-note">' + data.disclaimer + ' · 采集 ' + (data.as_of || "2026-10") + '</p>' : "");
+})();
+</script>
+</body>
+</html>

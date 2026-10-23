@@ -1,0 +1,282 @@
+{
+  "title": "咖啡知识库·A",
+  "as_of": "2026-10",
+  "disclaimer": "部分结论来自二手资料，未逐一复核",
+  "chapters": [
+    {
+      "id": "flavor",
+      "title": "风味化学：一杯咖啡的味道从哪里来",
+      "intro": "咖啡的味道来自上千种化合物的协作：酸、甜、苦构成味觉骨架，约一千种挥发性物质决定香气，而烘焙与处理法把生豆改写成不同风味。本章拆解四味来源与两大工艺变量，为「这杯为什么好喝」提供课堂可用的科学解释。",
+      "sections": [
+        {
+          "heading": "酸甜苦香四味的化学来源",
+          "text": "咖啡的酸主要来自绿原酸、柠檬酸、苹果酸与奎宁酸。生豆中绿原酸约占干重5%—8%，罗布斯塔更高，它在杯中带来清爽酸感，也是涩感与部分苦味的前体。甜感主要来自蔗糖：阿拉比卡生豆蔗糖含量约6%—9%，高于罗布斯塔，烘焙中蔗糖大量参与反应，剩余部分与香气联想共同构成「回甘」。苦味由咖啡因、葫芦巴碱、绿原酸内酯与深烘苯基吲哚共同提供，其中咖啡因的直接贡献有限，葫芦巴碱与绿原酸衍生物更关键。香气是风味感知的主力：已鉴定的挥发性物质超过一千种，涵盖吡嗪（坚果、烘焙香）、呋喃（焦糖香）、醛类（青草、花香）与含硫化合物等；这些物质的嗅觉阈值差异极大，极微量就能左右整体印象。此外，脂质与多糖虽不直接呈味，却影响醇厚度与香气释放，是风味的支撑层。光明网引述研究指出，葫芦巴碱在多种咖啡中含量均高，是苦味的重要来源；绿原酸及其衍生物奎宁酸、肉桂酸同时贡献酸味与苦味。理解四味来源，是判断烘焙度与冲煮策略的基础。",
+          "sources": [
+            {
+              "label": "Sunarharum 2014（Food Research International）",
+              "url": "https://doi.org/10.1016/j.foodres.2014.02.030",
+              "title": "Complexity of coffee flavor: A compositional and sensory perspective",
+              "date": "2014"
+            },
+            {
+              "label": "Buffo & Cardelli-Freire 2004（Flavour and Fragrance Journal）",
+              "url": "https://doi.org/10.1002/ffj.1363",
+              "title": "Coffee flavour: an overview",
+              "date": "2004"
+            },
+            {
+              "label": "光明网（转参考消息）",
+              "url": "https://m.gmw.cn/2024-06/20/content_1303768921.htm",
+              "title": "咖啡香气和味道背后的秘密",
+              "date": "2024-06-20"
+            }
+          ]
+        },
+        {
+          "heading": "烘焙如何改写风味",
+          "text": "烘焙是风味定型的核心工序，温度通常在170℃—230℃区间完成。两条主线化学反应决定风味：美拉德反应在氨基酸与还原糖之间发生，生成类黑素以及吡嗪、呋喃类物质，带来坚果、面包皮、焦糖等香气与棕色；焦糖化在更高温度下让蔗糖裂解，产生焦糖、苦甜与酸味物质；伴随的斯特雷克降解还会释放醛类，进一步丰富香气层次。豆体受热膨胀发出的「一爆」「二爆」声，是烘焙师判断阶段与终止时点的经典信号。浅烘（约止于一爆）保留花果与柑橘酸香；中烘平衡酸、甜与醇厚度；深烘（接近或超过二爆）苦味显著增强、酸度下降，出现烟熏与焦苦调。绿原酸随烘焙受热分解，先生成奎宁酸内酯（苦味），深度烘焙进一步生成苯基吲哚，这是深烘咖啡苦味的标志性来源。咖啡因热稳定性较高，深烘对咖啡因含量的影响远小于对风味的影响。相同的终点色值，升温速率与总时长不同的烘焙曲线也会得到不同风味。简言之，烘焙越深，酸与花果香越弱，苦与焦香越强。",
+          "sources": [
+            {
+              "label": "Yeretzian et al. 2002（European Food Research and Technology）",
+              "url": "https://link.springer.com/article/10.1007/s00217-001-0424-7",
+              "title": "From the green bean to the cup of coffee: investigating coffee roasting by on-line monitoring of volatiles",
+              "date": "2002"
+            },
+            {
+              "label": "Sunarharum 2014（Food Research International）",
+              "url": "https://doi.org/10.1016/j.foodres.2014.02.030",
+              "title": "Complexity of coffee flavor: A compositional and sensory perspective",
+              "date": "2014"
+            },
+            {
+              "label": "光明网（转参考消息）",
+              "url": "https://m.gmw.cn/2024-06/20/content_1303768921.htm",
+              "title": "咖啡香气和味道背后的秘密",
+              "date": "2024-06-20"
+            }
+          ]
+        },
+        {
+          "heading": "处理法如何影响风味",
+          "text": "处理法是生豆在烘焙前去除果肉、果胶并干燥的方式，直接决定风味走向。水洗处理先机械去果肉，再经发酵去除果胶后水洗干燥，种子只保留自身成分，风味干净、酸质明亮，典型表现为柑橘、花香与茶感；其发酵一般控制在十几小时到一两天。日晒处理把整颗咖啡果直接晾晒，果肉糖分与香气物质在缓慢干燥中渗入种子，甜感高、醇厚度足，常见莓果、熟果与发酵酒香，干燥常需两到四周，一致性较难控制。蜜处理保留部分果胶干燥，介于两者之间，甜感与酸质更平衡；水资源丰富的产区多用水洗，干旱产区则倾向日晒或蜜处理。近年研究强调微生物的作用：发酵过程中酵母与乳酸菌代谢产生酯类、醇类与有机酸，是花香果香的重要来源，不同菌群与发酵时长会显著改变风味轮廓。据国际咖啡组织，全球咖啡涉及约1250万农户家庭，生豆处理是产地价值形成的关键环节。同一产区同一豆种，处理法不同，杯中风向可能截然不同。",
+          "sources": [
+            {
+              "label": "Lee et al. 2015（Food Chemistry）",
+              "url": "https://doi.org/10.1016/j.foodchem.2015.03.124",
+              "title": "Coffee fermentation and flavor – An intricate and delicate relationship",
+              "date": "2015"
+            },
+            {
+              "label": "Haile & Kang 2019（Journal of Food Quality）",
+              "url": "https://doi.org/10.1155/2019/4836709",
+              "title": "The Role of Microbes in Coffee Fermentation and Their Impact on Coffee Quality",
+              "date": "2019"
+            },
+            {
+              "label": "国际咖啡组织 ICO",
+              "url": "https://ico.org/",
+              "title": "International Coffee Organization",
+              "date": "2026"
+            }
+          ]
+        },
+        {
+          "heading": "咖啡因与风味的关系",
+          "text": "咖啡因常被误认为是咖啡苦味的主因，实际上它只是苦味拼图的一小块：研究显示其对苦味的直接贡献有限，绿原酸衍生物、葫芦巴碱与深烘产物才是苦味主体。咖啡因本身是热稳定生物碱：阿拉比卡豆含量约0.9%—1.4%，罗布斯塔约1.7%—3.5%，这是罗布斯塔更苦更「冲」的原因之一，但罗布斯塔更高的绿原酸含量同样推高苦味；正因如此，罗布斯塔常被用于意式拼配，以提供苦味骨架与油脂感。由于烘焙对咖啡因影响小，豆体失重后按重量百分比计算咖啡因比例甚至略有上升，「深烘更提神」是常见误解。咖啡因在水中溶解度高，冲煮时几乎完全进入杯中。脱因咖啡在生豆阶段以水、乙酸乙酯或超临界二氧化碳去除约97%咖啡因，过程会带走部分风味前体，风味通常比常规豆略淡。对风味设计而言，咖啡因提供苦味骨架与口感重量，却不是风味主角，酸、甜与香气的平衡才是判断一杯咖啡好坏的关键。",
+          "sources": [
+            {
+              "label": "Sunarharum 2014（Food Research International）",
+              "url": "https://doi.org/10.1016/j.foodres.2014.02.030",
+              "title": "Complexity of coffee flavor: A compositional and sensory perspective",
+              "date": "2014"
+            },
+            {
+              "label": "Buffo & Cardelli-Freire 2004（Flavour and Fragrance Journal）",
+              "url": "https://doi.org/10.1002/ffj.1363",
+              "title": "Coffee flavour: an overview",
+              "date": "2004"
+            },
+            {
+              "label": "光明网（转参考消息）",
+              "url": "https://m.gmw.cn/2024-06/20/content_1303768921.htm",
+              "title": "咖啡香气和味道背后的秘密",
+              "date": "2024-06-20"
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "title": "Complexity of coffee flavor: A compositional and sensory perspective",
+          "year": "2014",
+          "venue": "Food Research International",
+          "doi": "10.1016/j.foodres.2014.02.030",
+          "verified": true
+        },
+        {
+          "title": "Coffee flavour: an overview",
+          "year": "2004",
+          "venue": "Flavour and Fragrance Journal",
+          "doi": "10.1002/ffj.1363",
+          "verified": true
+        },
+        {
+          "title": "From the green bean to the cup of coffee: investigating coffee roasting by on-line monitoring of volatiles",
+          "year": "2002",
+          "venue": "European Food Research and Technology",
+          "doi": "10.1007/s00217-001-0424-7",
+          "verified": true
+        },
+        {
+          "title": "Coffee fermentation and flavor – An intricate and delicate relationship",
+          "year": "2015",
+          "venue": "Food Chemistry",
+          "doi": "10.1016/j.foodchem.2015.03.124",
+          "verified": true
+        },
+        {
+          "title": "The Role of Microbes in Coffee Fermentation and Their Impact on Coffee Quality",
+          "year": "2019",
+          "venue": "Journal of Food Quality",
+          "doi": "10.1155/2019/4836709",
+          "verified": true
+        },
+        {
+          "title": "Coffee Flavor Chemistry（未核实）",
+          "year": "2002",
+          "venue": "John Wiley & Sons",
+          "doi": "",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "咖啡因与健康：每天喝多少合适",
+      "intro": "咖啡因是全球使用最广泛的中枢兴奋物质。它如何提神、每天多少安全、咖啡对心脏与代谢是敌是友，是最常见的课堂追问。本章以欧洲食品安全局、美国FDA的评估和大型队列研究为依据，给出可引用的结论与注意事项。",
+      "sections": [
+        {
+          "heading": "咖啡因的作用机制",
+          "text": "咖啡因的提神机制是「腺苷受体拮抗」。腺苷是细胞能量代谢的副产物，清醒时间越长，大脑中腺苷积累越多，它与A1、A2A受体结合后抑制神经活动、传递困倦信号；咖啡因分子结构与腺苷相似，抢先占据受体却不激活它，从而暂时屏蔽困倦信号，同时使多巴胺与去甲肾上腺素的作用相对增强，产生清醒与专注感。需要澄清的是，咖啡因并不直接制造多巴胺，只是让原有神经递质的作用更明显。咖啡因在摄入后约30—60分钟达到血药浓度峰值，成人半衰期约3—5小时，个体差异大，孕妇与肝病患者明显延长；它在外周还会促进胃酸分泌并有轻度利尿作用，空腹不适多由此而来。咖啡因并不消除疲劳本身，只是延后疲劳信号。长期规律摄入会产生耐受，突然停止可能出现头痛、疲倦、注意力下降等戒断症状。这些生理特征解释了为什么下午的咖啡可能影响夜间睡眠，也解释了安全剂量为何因人而异。",
+          "sources": [
+            {
+              "label": "NEJM 综述 van Dam et al. 2020",
+              "url": "https://www.nejm.org/doi/10.1056/NEJMra1816604",
+              "title": "Coffee, Caffeine, and Health",
+              "date": "2020-07-22"
+            },
+            {
+              "label": "美国FDA",
+              "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+              "title": "Spilling the Beans: How Much Caffeine is Too Much?",
+              "date": "2024-08-28"
+            }
+          ]
+        },
+        {
+          "heading": "每日安全摄入量（权威机构口径）",
+          "text": "权威机构的共识是：健康成年人每日咖啡因不超过400毫克。欧洲食品安全局（EFSA）2015年风险评估结论：健康成人习惯性摄入每天不超过400毫克、单次不超过200毫克，不构成安全隐患；孕妇与哺乳期妇女每天不超过200毫克；儿童青少年按每公斤体重3毫克估算每日上限。美国FDA同样将每天400毫克作为多数成年人「不与负面效应相关」的参考量，并提示快速摄入约1200毫克纯咖啡因即可观察到惊厥等中毒反应，高纯度咖啡因粉风险极高。按FDA数据，12盎司（约355毫升）现煮普通咖啡含咖啡因113—247毫克，折算一杯240毫升约75—170毫克；因此400毫克大致相当于2—3杯12盎司杯量，或3—4杯常规小杯咖啡。注意咖啡因也来自浓茶、可乐、功能饮料与巧克力，单罐能量饮料可含数十至数百毫克，需要叠加计算；不同人对咖啡因的敏感性与代谢速度差异很大，同样的量有人无感、有人心悸。实际摄入应按豆种、萃取方式与杯量估算。",
+          "sources": [
+            {
+              "label": "欧洲食品安全局 EFSA",
+              "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102",
+              "title": "Scientific Opinion on the safety of caffeine",
+              "date": "2015-05-27"
+            },
+            {
+              "label": "美国FDA",
+              "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+              "title": "Spilling the Beans: How Much Caffeine is Too Much?",
+              "date": "2024-08-28"
+            }
+          ]
+        },
+        {
+          "heading": "咖啡与心血管、代谢的研究结论",
+          "text": "大型研究总体支持适量喝咖啡利大于弊。Circulation 2014年发表的剂量反应荟萃分析纳入36项前瞻性队列、超过127万名参与者与3.6万余例心血管事件，发现咖啡消费与心血管疾病风险呈非线性关系：每天3—5杯时风险最低，大量饮用也未观察到风险升高。BMJ 2017年伞状综述汇总200余项荟萃分析，结论为咖啡摄入与全因死亡、心血管死亡、2型糖尿病、肝癌等风险降低相关，获益在每天3—4杯左右最明显；同一综述同时提示，孕期高摄入与低出生体重、早产相关，女性骨折风险也需关注。NEJM 2020年综述指出，习惯性饮用咖啡与2型糖尿病风险下降一致相关，JAMA 2005年系统综述亦有同样结论；过滤咖啡不升高胆固醇，而法压、土耳其式等未过滤咖啡含咖啡醇，会升高低密度脂蛋白。需注意这些多为观察性研究，且吸烟者往往同时大量喝咖啡，混杂因素使因果推断受限，只能说明相关、不能完全证明因果。",
+          "sources": [
+            {
+              "label": "Ding et al. 2014（Circulation）",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.113.005925",
+              "title": "Long-Term Coffee Consumption and Risk of Cardiovascular Disease",
+              "date": "2014"
+            },
+            {
+              "label": "Poole et al. 2017（BMJ）",
+              "url": "https://doi.org/10.1136/bmj.j5024",
+              "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+              "date": "2017-11-22"
+            },
+            {
+              "label": "NEJM 综述 van Dam et al. 2020",
+              "url": "https://www.nejm.org/doi/10.1056/NEJMra1816604",
+              "title": "Coffee, Caffeine, and Health",
+              "date": "2020-07-22"
+            }
+          ]
+        },
+        {
+          "heading": "喝咖啡的注意事项",
+          "text": "第一，特殊人群设限：孕妇、备孕及哺乳期女性按EFSA建议控制在每天200毫克以内；儿童青少年不建议饮用能量饮料。第二，注意睡眠与情绪：咖啡因半衰期长，下午或晚间摄入可能影响入睡与深睡眠，焦虑、失眠者应减量或只在上午饮用。第三，心血管人群个体化：咖啡因短期升高血压，但长期习惯者多产生耐受；已有心律失常或血压控制不佳者应遵医嘱调整。第四，选对喝法：加糖、奶油与糖浆会抵消咖啡的健康收益；未过滤咖啡会升高低密度脂蛋白，血脂异常者优先选滤纸过滤的咖啡。第五，出现心悸、焦虑、胃部不适等过量信号时主动减量，并以逐步减少代替突然停用，避免戒断性头痛；长期大量饮用者还应保证钙质与水分摄入。第六，药物相互作用：部分抗生素、口服避孕药会延缓咖啡因代谢，服药期间应咨询医生或药师。任何「咖啡治病」的说法都缺乏依据，适量才是关键。",
+          "sources": [
+            {
+              "label": "欧洲食品安全局 EFSA",
+              "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102",
+              "title": "Scientific Opinion on the safety of caffeine",
+              "date": "2015-05-27"
+            },
+            {
+              "label": "美国FDA",
+              "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+              "title": "Spilling the Beans: How Much Caffeine is Too Much?",
+              "date": "2024-08-28"
+            },
+            {
+              "label": "NEJM 综述 van Dam et al. 2020",
+              "url": "https://www.nejm.org/doi/10.1056/NEJMra1816604",
+              "title": "Coffee, Caffeine, and Health",
+              "date": "2020-07-22"
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "title": "Coffee, Caffeine, and Health",
+          "year": "2020",
+          "venue": "New England Journal of Medicine",
+          "doi": "10.1056/NEJMra1816604",
+          "verified": true
+        },
+        {
+          "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+          "year": "2017",
+          "venue": "BMJ",
+          "doi": "10.1136/bmj.j5024",
+          "verified": true
+        },
+        {
+          "title": "Long-Term Coffee Consumption and Risk of Cardiovascular Disease: A Systematic Review and a Dose-Response Meta-Analysis of Prospective Cohort Studies",
+          "year": "2014",
+          "venue": "Circulation",
+          "doi": "10.1161/CIRCULATIONAHA.113.005925",
+          "verified": true
+        },
+        {
+          "title": "Coffee consumption and risk of type 2 diabetes: a systematic review",
+          "year": "2005",
+          "venue": "JAMA",
+          "doi": "10.1001/jama.294.1.97",
+          "verified": true
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "year": "2015",
+          "venue": "EFSA Journal",
+          "doi": "10.2903/j.efsa.2015.4102",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "title": "市售咖啡饮品库·补",
+  "as_of": "2026-10",
+  "drinks": [
+    {
+      "brand": "M Stand",
+      "product": "燕麦拿铁",
+      "type": "奶咖（燕麦拿铁）",
+      "beans": "未公开（推测：门店意式拼配豆，多产区阿拉比卡）",
+      "flavor": "未公开官方文案（第三方：燕麦奶香与浓缩咖啡融合，口感顺滑）",
+      "price_cny": 38,
+      "source": "https://post.smzdm.com/talk/p/am855l64/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Seesaw",
+      "product": "澳白",
+      "type": "澳白（flat white）",
+      "beans": "未公开逐款用豆（官方旗舰店在售「鹦鹉」「长颈鹿」「斑马」等100%阿拉比卡意式拼配豆；澳白具体拼配未公开）",
+      "flavor": "未公开官方文案（第三方：澳白醇厚浓郁）",
+      "price_cny": null,
+      "source": "https://you.ctrip.com/food/shanghai2/21412433.html",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Manner",
+      "product": "桂花拿铁",
+      "type": "奶咖（桂花风味拿铁）",
+      "beans": "MANNER BLEND 拼配咖啡豆（官方：MANNER门店意式出品用豆）；具体产区与拼配比例未公开",
+      "flavor": "未公开官方文案（第三方：桂花香+奶咖，招牌款）",
+      "price_cny": 15,
+      "source": "https://post.smzdm.com/p/awonrnxg/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "库迪",
+      "product": "潘帕斯蓝生酪茉莉拿铁",
+      "type": "奶咖（生酪茉莉风味拿铁）",
+      "beans": "未公开逐款用豆（品牌通稿：全球优质产区100%阿拉比卡、IIAC金奖拼配；铂金精品豆含水洗耶加雪菲+日晒西达摩）",
+      "flavor": "未公开官方文案（第三方：茉莉花香+生酪奶香，原价32元）",
+      "price_cny": 32,
+      "source": "https://www.smzdm.com/p/171749505/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "幸运咖",
+      "product": "生椰拿铁",
+      "type": "奶咖（生椰拿铁）",
+      "beans": "未公开逐款用豆（品牌官方微博：鲜烘咖啡豆、到店只用30天、100%阿拉比卡豆现磨鲜萃）",
+      "flavor": "未公开官方文案",
+      "price_cny": null,
+      "source": "https://www.smzdm.com/p/180755518/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "肯德基K咖啡",
+      "product": "冰吸西瓜生椰拿铁",
+      "type": "奶咖（果咖/生椰拿铁）",
+      "beans": "未公开逐款用豆（官方宣传：融入IIAC金奖咖啡豆）",
+      "flavor": "第三方（新浪）：真实西瓜汁+凉感因子，融入生椰拿铁",
+      "price_cny": 9.9,
+      "source": "https://k.sina.com.cn/article_7879776513_1d5abd90106801vmlo.html",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "全家湃客",
+      "product": "拿铁（中杯）",
+      "type": "奶咖（拿铁）",
+      "beans": "未公开（推测：便利店现磨意式拼配豆）",
+      "flavor": "未公开官方文案",
+      "price_cny": 12,
+      "source": "https://www.sohu.com/a/388216744_689532",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "三得利 BOSS",
+      "product": "黑咖啡（罐装280ml）",
+      "type": "即饮罐装黑咖啡",
+      "beans": "官方：精选优质阿拉比卡咖啡（具体产区与拼配未公开）",
+      "flavor": "官方：无糖配方、轻盈少负担，采用中烘工艺，酸苦平衡、清爽易饮",
+      "price_cny": null,
+      "source": "https://www.suntory.com.cn/sp/foods/product/boss/",
+      "confidence": "高",
+      "unpublished": true
+    },
+    {
+      "brand": "UCC",
+      "product": "职人の珈琲 无糖黑咖啡（900ml即饮）",
+      "type": "即饮黑咖啡（无糖）",
+      "beans": "未公开（推测：UCC拼配豆；官方商品说明仅标注香气与醇厚）",
+      "flavor": "未公开官方文案（商品说明：香りとコク＝香气与醇厚）",
+      "price_cny": 13.9,
+      "source": "https://m.smzdm.com/p/171693430/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "AGF",
+      "product": "Blendy 无糖黑咖啡（80g罐装速溶冻干）",
+      "type": "速溶黑咖啡（罐装）",
+      "beans": "未公开（推测：冻干速溶咖啡，豆种未公开）",
+      "flavor": "未公开官方文案",
+      "price_cny": 36.1,
+      "source": "https://www.smzdm.com/p/152012438/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Giang Cafe（河内）",
+      "product": "鸡蛋咖啡（Cà Phê Trứng）",
+      "type": "鸡蛋咖啡（越南特色）",
+      "beans": "未公开（推测：越南本地罗布斯塔/阿拉比卡拼配，传统滴滤基底）",
+      "flavor": "第三方（TripAdvisor）：蛋黄霜覆盖于浓郁越南咖啡上，香气四溢（1946年创始店）",
+      "price_cny": null,
+      "source": "https://www.tripadvisor.cn/ShowUserReviews-g293924-d1467224-r604396743-Giang_Cafe-Hanoi.html",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "亚坤 Ya Kun Kaya Toast",
+      "product": "Kopi 南洋咖啡（新加坡淡奶咖啡）",
+      "type": "南洋咖啡（kopi）",
+      "beans": "未公开（推测：南洋式深度烘焙罗布斯塔拼配）",
+      "flavor": "第三方（携程菜单：新加坡淡奶咖啡；搜狐：略带粘稠、香浓）",
+      "price_cny": null,
+      "source": "https://you.ctrip.com/food/suzhou11/5132976.html",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Tim Hortons（加拿大）",
+      "product": "Original Blend（中度烘焙）",
+      "type": "滴滤咖啡豆/粉",
+      "beans": "二手商品页（Amazon.ca/eBay）：100% Arabica、Medium Roast；官方未公开具体拼配产区",
+      "flavor": "未公开官方文案（第三方：温和口感、悠长余韵）",
+      "price_cny": null,
+      "source": "https://www.amazon.ca/Tim-Hortons-Arabica-Original-Medium/dp/B0FBNHTYL9",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Dunkin'",
+      "product": "Original Blend Medium Roast",
+      "type": "滴滤咖啡豆/粉",
+      "beans": "二手商品页（Amazon.com）：100% Arabica Coffee、Medium Roast；官方未公开具体拼配产区",
+      "flavor": "未公开官方文案（第三方：中度烘焙原味拼配）",
+      "price_cny": null,
+      "source": "https://www.amazon.com/dp/B07MQSBPLR",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Café Amazon（泰国）",
+      "product": "椰香焦糖拿铁",
+      "type": "奶咖（椰香焦糖拿铁）",
+      "beans": "未公开（推测：泰国本地阿拉比卡拼配）",
+      "flavor": "第三方（搜狐）：椰香焦糖拿铁灵感源于泰国甜点，焦糖与椰浆相融",
+      "price_cny": null,
+      "source": "https://www.sohu.com/a/344054353_256353",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Nespresso",
+      "product": "Arpeggio 胶囊",
+      "type": "意式浓缩胶囊",
+      "beans": "未公开（推测：阿拉比卡拼配；二手评测称中深焙）",
+      "flavor": "二手（豆丁）：烧烤及巧克力香气；什么值得买：适合做拿铁/卡布奇诺",
+      "price_cny": null,
+      "source": "https://post.smzdm.com/p/517387/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Lavazza",
+      "product": "Qualità Oro 欧罗金标",
+      "type": "意式咖啡豆/粉",
+      "beans": "商品页（天猫国际官方直营）：100%阿拉比卡、海拔2000米以上、中度烘焙、多种阿拉比卡拼配（具体产区未公开）",
+      "flavor": "未公开官方文案（二手：中度烘焙经典拼配）",
+      "price_cny": 129,
+      "source": "https://m.smzdm.com/p/171070121/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Campos Coffee（澳洲）",
+      "product": "Superior Blend",
+      "type": "意式拼配咖啡豆（奶基/flat white）",
+      "beans": "未公开（推测：高海拔阿拉比卡拼配；第三方描述中深烘焙）",
+      "flavor": "第三方（淘宝代购）：醇香、中深烘焙经典招牌；官方首页称其为招牌系列",
+      "price_cny": null,
+      "source": "https://camposcoffee.com/",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "Blue Bottle",
+      "product": "Hayes Valley Espresso",
+      "type": "意式浓缩拼配（espresso blend）",
+      "beans": "官方产品页为JS渲染未抓到文本（二手转述：深烘espresso blend，蓝瓶门店标准意式之一）",
+      "flavor": "二手（北美省钱快报）：Baking Chocolate、orange zest、brown sugar（黑巧克力、橙皮、红糖）",
+      "price_cny": null,
+      "source": "https://www.dealmoon.com/post/2563312",
+      "confidence": "中",
+      "unpublished": true
+    },
+    {
+      "brand": "illy",
+      "product": "Classico（经典中度烘焙咖啡粉）",
+      "type": "意式/摩卡咖啡粉",
+      "beans": "官方产品页：Classico 为 Medium Roast（中度烘焙）拼配；具体豆种、产区与比例未在页面公开",
+      "flavor": "官方分类页：Classic Roast 经典烘焙、均衡风味（Flavor Intensity 标注）",
+      "price_cny": null,
+      "source": "https://www.illy.com/en-us/coffee/ground-espresso-moka-coffee",
+      "confidence": "高",
+      "unpublished": true
+    }
+  ]
+}

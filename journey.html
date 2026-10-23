@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咖啡旅程 —— 从第一杯，到爱上咖啡</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="journey">
+<header>
+  <a class="home-link" href="index.html">← 咖手首页</a>
+  <div class="brand">咖手 · CoffeeHand <span class="tag">咖啡旅程 · 消费者端</span></div>
+  <div class="sub">五段旅程：找到你的第一杯 → 看懂风味 → 听懂含义 → 看懂从豆到杯 → 爱上咖啡</div>
+</header>
+
+<nav class="jnav">
+  <a href="#s1">① 第一杯</a>
+  <a href="#s2">② 风味地图</a>
+  <a href="#s3">③ 含义</a>
+  <a href="#s4">④ 从豆到杯</a>
+  <a href="#s5">⑤ 爱上</a>
+</nav>
+
+<main class="wrap">
+
+  <!-- ① 第一杯 -->
+  <section class="panel stage" id="s1">
+    <h2><span class="st-num">01</span> 第一杯：找到你的那杯</h2>
+    <p class="stage-sub">3 个问题，不用懂咖啡也能答。答完立刻告诉你：你的第一杯该喝什么、怎么冲、为什么。</p>
+
+    <div class="q-card" id="q1">
+      <h3>Q1 · 你更喜欢哪种味道？</h3>
+      <div class="q-opts">
+        <button class="q-opt" data-q="1" data-a="sweet">奶茶般的甜</button>
+        <button class="q-opt" data-q="1" data-a="sour">柠檬般的酸</button>
+        <button class="q-opt" data-q="1" data-a="bitter">黑巧般的苦</button>
+        <button class="q-opt" data-q="1" data-a="floral">绿茶般的清香</button>
+      </div>
+    </div>
+
+    <div class="q-card" id="q2">
+      <h3>Q2 · 你通常在什么时候想喝？</h3>
+      <div class="q-opts">
+        <button class="q-opt" data-q="2" data-a="morning">早上，快速提神</button>
+        <button class="q-opt" data-q="2" data-a="afternoon">午后，放松一下</button>
+        <button class="q-opt" data-q="2" data-a="night">晚上，慢慢品</button>
+        <button class="q-opt" data-q="2" data-a="social">和朋友一起分享</button>
+      </div>
+    </div>
+
+    <div class="q-card" id="q3">
+      <h3>Q3 · 你更像哪种人？</h3>
+      <div class="q-opts">
+        <button class="q-opt" data-q="3" data-a="adventurer">爱尝新，什么都想试试</button>
+        <button class="q-opt" data-q="3" data-a="steady">求稳定，认准就不换</button>
+        <button class="q-opt" data-q="3" data-a="ritual">讲仪式，生活要有点郑重</button>
+        <button class="q-opt" data-q="3" data-a="simple">图简单，好喝就行</button>
+      </div>
+    </div>
+
+    <div id="firstCup" style="display:none"></div>
+  </section>
+
+  <!-- ② 风味地图 -->
+  <section class="panel stage" id="s2">
+    <h2><span class="st-num">02</span> 风味地图：酸甜苦香，各是各的世界</h2>
+    <p class="stage-sub">咖啡不是只有"苦"。点开一个方向，看看它喝起来像什么。</p>
+    <div class="flavor-axes">
+      <button class="axis sour" data-axis="sour">酸<br><small>水果的酸</small></button>
+      <button class="axis sweet" data-axis="sweet">甜<br><small>天然的回甘</small></button>
+      <button class="axis bitter" data-axis="bitter">苦<br><small>醇厚的骨架</small></button>
+      <button class="axis aroma" data-axis="aroma">香<br><small>最早抵达的告白</small></button>
+    </div>
+    <div id="flavorDetail"><p class="placeholder">点上面任意一个方向。</p></div>
+  </section>
+
+  <!-- ③ 含义 -->
+  <section class="panel stage" id="s3">
+    <h2><span class="st-num">03</span> 咖啡的含义：它从来不只是饮料</h2>
+    <p class="stage-sub">从一颗红果子，到一门生计，到一段慢下来的时间——咖啡的三层含义。</p>
+    <div class="meaning-list">
+      <div class="meaning-card">
+        <div class="m-time">起源 · 埃塞俄比亚</div>
+        <h3>一颗"让人跳舞"的红果子</h3>
+        <p>传说牧羊人发现，山羊吃了某种红色浆果后整夜跳舞。咖啡最初不是提神饮料，而是被当作"让人有活力的果实"。它从一开始，就与"活力"绑定。</p>
+      </div>
+      <div class="meaning-card">
+        <div class="m-time">传播 · 阿拉伯半岛</div>
+        <h3>从"果子"到"文化"</h3>
+        <p>也门人称它 qahwa——一个原本指"酒"的词。咖啡从此不再是一颗果子，而是一种"让人清醒的饮品"，通过摩卡港卖向整个世界。</p>
+      </div>
+      <div class="meaning-card">
+        <div class="m-time">兴盛 · 欧洲</div>
+        <h3>咖啡馆是"思想的交易所"</h3>
+        <p>保险业的诞生地是伦敦一家咖啡馆；启蒙时代的想法在咖啡馆里被大声讨论。一杯咖啡的时间，成了公共生活的一部分。</p>
+      </div>
+      <div class="meaning-card hn">
+        <div class="m-time">中国 · 海南</div>
+        <h3>1898：带回来的不是树，是生计</h3>
+        <p>1898 年，华侨邝世连从南洋带回咖啡种子，在文昌种下海南第一棵咖啡树；1952 年，新中国第一家咖啡厂在万宁兴隆建成。对归侨来说，咖啡是"活下去、过得好"的答案。</p>
+      </div>
+      <div class="meaning-card final">
+        <h3>咖啡的三层含义</h3>
+        <p><b>第一层 · 提神</b>——它是生存：撑住清晨，撑住夜班。<br>
+           <b>第二层 · 慢下来</b>——它是生活：给自己留一段什么都不赶的时间。<br>
+           <b>第三层 · 分享</b>——它是连接：一杯咖啡递过去，话就开始了。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 从豆到杯 -->
+  <section class="panel stage" id="s4">
+    <h2><span class="st-num">04</span> 从豆到杯：你杯里的每一口，都是一条链</h2>
+    <p class="stage-sub">点开任意一环，看懂一颗豆子从种植、加工、出海、上架到萃取上桌的完整旅程——这也是商家要陪你走完的路。</p>
+    <div id="chainSteps" class="chain-steps"></div>
+    <div id="chainDetail"><p class="placeholder">点上面任意一环。</p></div>
+  </section>
+
+  <!-- ⑤ 爱上 -->
+  <section class="panel stage" id="s5">
+    <h2><span class="st-num">05</span> 爱上：生成你的咖啡人格卡</h2>
+    <p class="stage-sub">你的答案已经画出了你的咖啡人格。完成第 1 题后自动生成；可复制文案、下载卡片分享。</p>
+    <div id="persona"><p class="placeholder">完成上面 3 个问题后，这里会出现你的咖啡人格卡。</p></div>
+  </section>
+
+</main>
+<footer>咖手 · CoffeeHand —— 不做咖啡，做"把咖啡讲给世界听"的能力 · 2026-10</footer>
+
+<script src="chain.js"></script>
+<script src="journey.js"></script>
+</body>
+</html>

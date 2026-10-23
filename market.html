@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咖手 · 出海服务台（商家端）—— 从种植到上桌的全链路出海帮助</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="home-link" href="index.html">← 咖手首页</a>
+  <div class="brand">咖手 · CoffeeHand <span class="tag">出海服务台 · 商家端</span></div>
+  <div class="sub">测市场定方向 → 六环节落地 → 卖法大全选渠道 → 出口前查合规卡</div>
+</header>
+
+<main class="wrap">
+  <!-- 服务台总览 -->
+  <section class="panel srv-hero">
+    <h2 class="srv-title">一张图看懂怎么用</h2>
+    <div class="srv-steps">
+      <a href="#score" class="srv-step"><span class="srv-num">1</span><b>测市场</b><small>输入豆子参数，得到 Top3 目标国家、理由与建议零售价</small></a>
+      <span class="srv-arrow">→</span>
+      <a href="#chain" class="srv-step"><span class="srv-num">2</span><b>六环节落地</b><small>种植、加工烘焙、出海合规、上架、萃取上桌、数据回流，每步可执行清单</small></a>
+      <span class="srv-arrow">→</span>
+      <a href="#channels" class="srv-step"><span class="srv-num">3</span><b>卖法大全</b><small>八种把咖啡卖到海外的具体方法，逐扇门讲透怎么做</small></a>
+      <span class="srv-arrow">→</span>
+      <a href="#compliance" class="srv-step"><span class="srv-num">4</span><b>六国合规</b><small>标签语言、认证、关税、准入、报关，一国一卡</small></a>
+    </div>
+    <p class="srv-note">页面按使用顺序排：先测市场定方向，再按六环节逐项落地，到卖法大全挑一种（或多种组合）卖货方法，发货前查合规卡。合规信息采集于 2026-10，以官方最新规定为准。</p>
+  </section>
+
+  <!-- API 面板 -->
+  <details class="panel api-panel">
+    <summary>🔑 DeepSeek API Key（可选 —— AI 顾问与商品文案用；不填也能使用全部本地功能）</summary>
+    <div class="api-row">
+      <label for="apiKey">API Key（只存在你的浏览器，不会上传）</label>
+      <input type="password" id="apiKey" placeholder="sk-..." autocomplete="off">
+      <button class="btn ghost" id="btnTest" type="button">测试连接</button>
+      <button class="btn ghost" id="btnSaveKey" type="button">保存</button>
+      <span id="apiStatus" class="api-status">未配置</span>
+    </div>
+    <div class="api-row">
+      <label for="model">模型</label>
+      <select id="model">
+        <option value="deepseek-flash" selected>deepseek-flash（快 · 便宜）</option>
+        <option value="deepseek-v4-pro">deepseek-v4-pro（强 · 贵）</option>
+      </select>
+    </div>
+  </details>
+
+  <!-- Step 1+2：测市场 -->
+  <div class="grid" id="score">
+    <section class="panel">
+      <h2>Step 1 · 输入你的豆子 <span class="hint">（全部可改，改完点「重新测算」）</span></h2>
+
+      <label>产品名</label>
+      <input type="text" id="pname" value="兴隆咖啡 · 经典罗布斯塔 250g">
+
+      <label>产地</label>
+      <select id="origin">
+        <option value="xinglong" selected>万宁兴隆 —— 1952 新中国第一家咖啡厂 · 归侨</option>
+        <option value="fushan">澄迈福山 —— 全国首个咖啡主题 4A 景区 · 火山富硒</option>
+        <option value="wenchang">文昌 —— 1898 海南第一棵咖啡树 · 华侨邝世连</option>
+      </select>
+
+      <label>品种</label>
+      <select id="variety">
+        <option value="robusta" selected>罗布斯塔（海南主力品种）</option>
+        <option value="liberica">利比里卡（1898 年带回的原始品种 · 稀缺）</option>
+        <option value="blend">阿拉比卡拼配</option>
+      </select>
+
+      <label>烘度</label>
+      <select id="roast">
+        <option value="light">浅烘 —— 花果酸质</option>
+        <option value="medium">中烘 —— 平衡</option>
+        <option value="mediumdark">中深烘 —— 坚果焦糖</option>
+        <option value="dark" selected>深烘 —— 醇厚低酸（南洋 kopi 传统）</option>
+      </select>
+      <label class="checkbox"><input type="checkbox" id="charcoal" checked> 海南传统炭烧特色标（差异化卖点）</label>
+
+      <label>处理法</label>
+      <select id="process">
+        <option value="washed" selected>水洗</option>
+        <option value="natural">日晒</option>
+        <option value="honey">蜜处理</option>
+      </select>
+
+      <label>风味（多选，可自定义）</label>
+      <div class="chips" id="flavors">
+        <span class="chip on" data-f="浓甜醇厚">浓甜醇厚</span>
+        <span class="chip" data-f="黑巧坚果">黑巧坚果</span>
+        <span class="chip" data-f="花果酸质">花果酸质</span>
+        <span class="chip" data-f="干净明亮">干净明亮</span>
+        <span class="chip" data-f="焦糖奶油">焦糖奶油</span>
+      </div>
+      <input type="text" id="customFlavor" placeholder="自定义风味，如：椰香、烟熏（可选）">
+
+      <button class="btn" id="btnScore" type="button">重新测算（本地规则，无需联网）</button>
+    </section>
+
+    <section class="panel">
+      <h2>Step 2 · 你的豆子适合卖到哪</h2>
+      <div id="scoreOut"><p class="placeholder">点左侧「重新测算」查看结果。</p></div>
+
+      <h2 style="margin-top:22px">商品文案 <span class="hint">（按推荐市场语言生成，每种附中文翻译 · 可点开直接改）</span></h2>
+      <button class="btn" id="btnGen" type="button">生成文案（DeepSeek）</button>
+      <button class="btn ghost" id="btnCopy" type="button">复制全部结果</button>
+      <div id="copyOut" class="placeholder" style="margin-top:12px"></div>
+    </section>
+  </div>
+
+  <!-- Step 3：依据 -->
+  <section class="panel">
+    <h2>Step 3 · 推荐依据 <span class="hint">（本页所用事实，均已一手核实）</span></h2>
+    <ul class="facts">
+      <li>1898 年，华侨邝世连从南洋带回利比里卡种子，在文昌种下海南第一棵咖啡树（省农业农村厅《海南新咖位》）。</li>
+      <li>1935 年印尼归侨陈显彰在福山规模引种；1952 年新中国第一家咖啡厂在万宁兴隆建成。</li>
+      <li>「兴隆咖啡」入选中国首批 100 个受欧盟保护的地理标志产品；福山是全国首个咖啡主题国家 4A 级景区。</li>
+      <li>全球精品咖啡 200–350g 装典型零售价中位数 ≈ 17.95 美元/250g（本团队 2026-10 平台在售观察，n=4,313 规格/33 店）。</li>
+      <li>2025 年海南出口咖啡豆及制品 169.5 吨，为进口量（9,110.6 吨）的 1.86%；2026 上半年出口货值 1,177.8 万元、+82.35%、销往 19 国（海口海关）。</li>
+    </ul>
+  </section>
+
+  <!-- Step 4：全链路服务台 -->
+  <section class="panel" id="chain">
+    <h2>Step 4 · 出海全链路服务台 <span class="hint">（六大环节 · 点击展开 · 每环节配 AI 顾问）</span></h2>
+    <p class="stage-sub">浮于表面的帮助没有意义。从种植到上桌，每一步都是可执行清单。</p>
+    <div id="chainService"></div>
+  </section>
+
+  <!-- Step 5：卖法大全 -->
+  <section class="panel" id="channels">
+    <h2>Step 5 · 卖法大全 <span class="hint">（把咖啡卖到海外的所有方法 · 点击展开 · 可组合使用）</span></h2>
+    <p class="stage-sub">没有「最好」的卖法，只有「最配你」的卖法。八扇门逐一打开看：适合谁、怎么起步、门槛、坑、咖啡适配。</p>
+    <div id="channelBox"></div>
+  </section>
+
+  <!-- Step 6：合规卡 -->
+  <section class="panel" id="compliance">
+    <h2>Step 6 · 六国出海合规卡 <span class="hint">（调研数据 · 以官方最新规定为准）</span></h2>
+    <div id="complianceBox"><p class="placeholder">六国合规卡整理中（调研完成后自动点亮）。</p></div>
+  </section>
+</main>
+<footer>咖手 · CoffeeHand —— 帮商家从种植到上桌，帮消费者从喝到爱 · 2026-10</footer>
+
+<script src="chain.js"></script>
+<script src="channels.js"></script>
+<script src="compliance.js" onerror="window.COMPLIANCE=window.COMPLIANCE||[]"></script>
+<script src="market.js"></script>
+</body>
+</html>
